@@ -22,10 +22,10 @@ An autonomous parking system for an Ackermann-steered vehicle in Gazebo Fortress
 ```mermaid
 graph TD
     User[User Command] -->|"/user_command"| LLM[LLM Agent Node]
-    LLM -->|REST API| Ollama[Ollama Server (Qwen)]
+    LLM -->|REST API| Ollama["Ollama Server (Qwen)"]
     Ollama -->|JSON| LLM
-    LLM -->|"/execute_parking" Action| Controller[Parking Controller Node]
-    Controller -->|"/cmd_vel"| Sim[Gazebo Simulation]
+    LLM -->|"/execute_parking" Action| Controller["Parking Controller Node"]
+    Controller -->|"/cmd_vel"| Sim["Gazebo Simulation"]
     Sim -->|"/odom" & Lidar| Controller
 ```
 
