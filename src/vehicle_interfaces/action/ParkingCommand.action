@@ -1,0 +1,15 @@
+# Goal
+string parking_type  # "parallel", "perpendicular", "simple", "reverse"
+geometry_msgs/Pose target_pose
+float32 speed  # desired speed in m/s
+---
+# Result
+bool success
+string message
+float32 final_distance_error
+float32 final_angle_error
+---
+# Feedback
+float32 progress_percent
+string current_phase
+geometry_msgs/Pose current_pose

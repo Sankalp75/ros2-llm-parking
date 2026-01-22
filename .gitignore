@@ -1,0 +1,14 @@
+build/
+install/
+log/
+.colcon/
+.vscode/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+*.swp
+*~
+# Ignore artifacts
+generated/
+tmp/
