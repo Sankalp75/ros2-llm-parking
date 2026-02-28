@@ -125,4 +125,6 @@ Edit `src/parking_controller/parking_controller/parking_controller_node.py` to a
 
 ## 🤝 Contributing
 Pull requests are welcome! Please ensure any physics changes are tested in the standard `parking_lot.world`.
+Made in colaboration with @Ayush737648
+
 
